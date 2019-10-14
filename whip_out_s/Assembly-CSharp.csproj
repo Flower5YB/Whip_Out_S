@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\InputController.cs" />
+    <Compile Include="Assets\Scripts\MoveController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Shared\GameManager.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/백업자료/졸업작품/Whip_Out_S/whip_out_s/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

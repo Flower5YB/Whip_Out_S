@@ -10,8 +10,8 @@ public class InputController : MonoBehaviour
 
     void Update()
     {
-        Vertical = Input.GetAxis("Vertical");
-        Horizontal = Input.GetAxis("Horizontal");
-        MouseInput = new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y"));
+        Vertical = Input.GetAxis("Vertical");   //키보드 a,d 화살표 매핑
+        Horizontal = Input.GetAxis("Horizontal");   //키보드 w,s 화살표 매핑
+        MouseInput = new Vector2(Input.GetAxisRaw("Mouse X"),Input.GetAxisRaw("Mouse Y"));  
     }
 }
